@@ -1,0 +1,30 @@
+@media all and (min-width: 360px){
+	.hide{
+		display: block;
+	}
+	.show{
+		display: none;
+	}
+	.imgTr{
+		margin-top: 65px;
+	}
+	section{
+		text-align: center;
+	}
+}
+@media all and (min-width: 768px){
+	.imgTr{
+		margin-top: 65px;
+	}
+	section{
+		text-align: left;
+	}
+	.moveRight{
+		float: right;
+	}
+}
+@media all and (min-width: 1200px){
+	.imgTr{
+		margin-top: 0px;
+	}
+}

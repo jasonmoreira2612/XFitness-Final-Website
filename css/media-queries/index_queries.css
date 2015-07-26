@@ -1,0 +1,77 @@
+ @media all and (min-width: 360px){
+ 	#addTop{
+ 		font-size: 14px;
+ 		top: 20px;
+ 		left: 20px;
+ 	}
+ 	#addBot{
+ 		font-size: 16px;
+ 		top: 40px;
+ 		left: 20px;
+ 	}
+ 	p{
+ 		font-size: 10px;
+ 	}
+ 	.shadowsMargin{
+ 		display: none;
+ 	}
+ 	.botSpacer{
+ 		margin-bottom: 30px;
+ 	}
+ 	.buttonView p{
+		margin-top: 14px;
+	}
+	#searchIcon{
+		padding-left: 5px;
+	}
+	.directionalButton{
+		display: none;
+	}
+	#readMore{
+		display: none;
+	}
+@media all and (min-width: 768px){
+	#addTop{
+ 		font-size: 28px;
+ 		top: 60px;
+ 		left: 40px;
+ 	}
+ 	#addBot{
+ 		font-size: 34px;
+ 		top: 80px;
+ 		left: 40px;
+ 	}
+	.botSpacer{
+ 		margin-bottom: 30px;
+ 	}
+ 	.shadowsMargin{
+ 		display: block;
+ 	}
+ 	.directionalButton{
+		top: 250px;
+		left: 650px;
+		display: block;
+	}
+	#readMore{
+		right: 580px;
+		display: block;
+	}
+	#dBLeft{
+		left: 608px;
+	}
+}
+@media all and (min-width: 1200px){
+	.noPaddingRight{
+		padding-right: 0;
+	}
+	.directionalButton{
+		top: 300px;
+		left: 750px;
+	}
+	#readMore{
+		right: 700px;
+	}
+	#dBLeft{
+		left: 708px;
+	}
+}

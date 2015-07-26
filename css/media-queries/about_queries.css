@@ -1,0 +1,30 @@
+@media all and (min-width: 360px){
+	.box{
+		background: white;
+		margin: 15px 0 50px 0;
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	.social{
+		margin-bottom: 25px;
+	}
+	#buttonUp{
+		margin: 15px 0 0 130px;
+	}
+	.spacerBottom{
+		margin-bottom: 30px;
+	}
+}
+@media all and (min-width: 768px){
+	#buttonUp{
+		margin: 0px 0 30px 650px;
+	}
+	.box{
+		margin: 0 0 50px 0;
+		border: 0;
+	}
+}
+@media all and (min-width: 1200px){
+	#buttonUp{
+		margin: 800px 0 30px 70px;
+	}
+}

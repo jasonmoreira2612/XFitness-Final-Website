@@ -1,0 +1,115 @@
+body {
+  background-color: #eeeeee;
+}
+/* Find us section */
+h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+.poster{
+  margin-left: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+.comments{
+  position: relative;
+  float: right;
+  width: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+.day {
+  width: 74px;
+  margin-left: 2px;
+  font-size: 32px;
+  height: 67px;
+  background: #FF8D71;
+  color: #fff;
+  text-align: center;
+  padding-top: 12px;}
+.month{
+  margin-top: 15px;
+  font-size: 14px;
+  width: 74px;
+  height: 27px;
+  background: #FF5342;
+  color: #fff;
+}
+#title_1 {
+  margin-left: 97px;
+  margin-top:  -55px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FC7F66; }
+#title_2 {
+  margin-left: 97px;
+  margin-top:  -55px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FC7F66; }
+#post {
+  margin-top: 119px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+#post_pic1{
+  margin-top: 20px;
+}
+#post_pic2{
+  margin-top: 20px;
+}
+.aside_title{
+  color:black;
+  position: relative;
+  top:15px;
+  font-size: 38px;
+}
+
+#categories li {
+  position: relative;
+  top:15px;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.98em;
+  color:gray;
+}
+#archives li {
+  list-style: none;
+  position: relative;
+  top:15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.98em;
+  color:gray;
+}
+#bottom_info{
+margin-top: 15px;
+display: block;
+position: relative;
+max-height: 50px;
+width: 90%;
+}
+#copyright{
+display: block;
+position: relative;
+}
+#phone{
+display: block;
+position: relative;
+bottom: 20px;
+left: 80%;
+width: 120px;
+}
+#return{
+display: block;
+position: relative;
+bottom: 90px;
+left: 100%;
+}
+.rm_btn {
+  width: 139px;
+  margin-top: 42px;
+  height: 55px;
+  background: #FF9D7E;
+  background: -moz-linear-gradient(top, #FF9D7E 0%, #FF7961 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF9D7E), color-stop(100%, #FF7961));
+  background: -webkit-linear-gradient(top, #FF9D7E 0%, #FF7961 100%);
+  background: -o-linear-gradient(top, #FF9D7E 0%, #FF7961 100%);
+  background: -ms-linear-gradient(top, #FF9D7E 0%, #FF7961 100%);
+  background: linear-gradient(to bottom, #FF9D7E 0%, #FF7961 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  color: #fff; }

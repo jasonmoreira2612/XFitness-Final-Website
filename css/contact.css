@@ -1,0 +1,70 @@
+/* body */
+body {
+  background-color: #eeeeee;
+}
+
+/* Find us section */
+h2 {
+  color: #333745;
+  font-weight: lighter;
+}
+
+h2 span {
+  color: #ff7f66;
+}
+
+.information {
+  color: #aaaaaa;
+  margin-top: 307px;
+}
+
+/* Form section */
+.mainInfo {
+  margin: 1.25rem 0;
+  border-radius: 0;
+  background-color: #f0f0f0;
+}
+
+.mainInfo:focus {
+  border: 0;
+  box-shadow: 0 0 0.625rem #ff7f66;
+}
+
+textarea {
+  background-color: #f0f0f0;
+  resize: none;
+  border: 1px solid #dbdbdb;
+}
+
+textarea:focus {
+  border: 0;
+  box-shadow: 0 0 0.625rem #ff7f66;
+}
+
+.btn-form {
+  color: #fff;
+  background: #ff7f66;
+  background: -webkit-linear-gradient(top, #ff9d7e 0%, #ff775f 100%);
+  background: linear-gradient(to bottom, #ff9d7e 0%, #ff775f 100%);
+  border-radius: 0;
+  border: 0.0625rem solid #ff7f66;
+  -webkit-transition: all ease 0.5s;
+          transition: all ease 0.5s;
+}
+
+.btn-form:hover {
+  background: #eeeeee;
+  color: #ff7f66;
+  border: 0.0625rem solid #ff7f66;
+}
+
+
+/* Inside Menu Styles Ends */
+/*=====================================
+=            Media Queries            =
+=====================================*/
+@media all and (max-width: 61.9375rem) {
+  .information {
+    margin-top: 0;
+  }
+}

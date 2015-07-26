@@ -1,0 +1,84 @@
+body{
+background: #f6f1f4;
+}
+#photoShow div {
+position:absolute;
+z-index: 0;
+margin: 45px;
+}
+#photoShow div.previous {
+z-index: 1;
+margin: 45px;
+}
+#photoShow div.current {
+z-index: 2;
+margin: 45px;
+}
+#nexto{
+float: right;
+position: relative;
+top: 270px;
+}
+#prevo{
+float: left;
+position: relative;
+top: 270px;
+}
+#wrapper_img_gallery{
+position: relative;
+top: 100px;
+margin: auto;
+/*Depend from the pic size change this*/    
+max-width: 800px;
+}
+/*All about the text*/
+#text_gallery_title{
+width: 50%;
+position: relative;
+
+}
+#title_gallery_1{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 200%;
+}
+#title_gallery_2{
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 200%;
+color:#f88066;
+}
+#photo_gallery_1_desc{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+/*640 wide screen*/
+@media screen and (max-width: 640px){
+    
+#nexto{
+float: right;
+position: relative;
+top: 200px;
+}
+#prevo{
+float: left;
+position: relative;
+top: 200px;
+}
+    
+}
+/*480 wide screen*/
+@media screen and (max-width: 480px){
+    
+#nexto{
+float: right;
+position: relative;
+top: 180px;
+}
+#prevo{
+float: left;
+position: relative;
+top: 180px;
+}
+    
+}

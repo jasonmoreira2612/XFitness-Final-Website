@@ -1,0 +1,256 @@
+$body-background: #eeeeee;
+$salmon-1: #fe8e71;
+$salmon-2: #fe7b66;
+$salmon-3: #fb6f57;
+$salmon-border: #fc6847;
+$orange: #ff7f66;
+$orange2: #ff5342;
+$grey: #b7b9bd;
+$grey2: #4a535b;
+@mixin box(){
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@mixin round($radius){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+@mixin background(){
+	background:-webkit-linear-gradient(#e9e9eb, #fefefe);
+	background:-moz-linear-gradient(#e9e9eb, #fefefe);
+	background:-ms-linear-gradient(#e9e9eb, #fefefe);
+	background: linear-gradient(#e9e9eb, #fefefe);
+}
+
+body{
+	@include background();
+}
+.paddingFixerLeft{
+	padding-left: 0;
+}
+.paddingFixerRight{
+	padding-right: 0;
+}
+.noPadding{
+	padding:0;
+}
+.orange{
+	color: $orange;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	color: $grey;
+}
+a{
+	color: white;
+}
+.spacer{
+	margin-top: 100px;
+}
+.galleryImgSpacer{
+	margin-bottom: 30px;
+}
+.title1{
+	margin: 0;
+	font-weight: 300;
+}
+.title2{
+	margin: 0 0 15px 0;
+	font-weight: bold;
+}
+.title3{
+	margin-top: 3px;
+}
+.pAbsolute{
+	position: absolute;
+}
+
+						/* ///////////// End Global ///////////// */
+.wrapper{
+	width: 100%;
+	padding: 40px;
+}
+header{
+	height: 70px;
+	@box;
+}
+	#socialNetwork{
+		heignt: 100%;
+		margin-top: 20px;
+	}
+	#socialNetwork img{
+		margin-right: 5px;
+	}
+									/* /////////////// End Header /////////////// */
+nav{
+	margin-top: 80px;
+	height: 60px;
+}
+	nav > ul{
+		height: 100%;
+		background: -moz-linear-gradient($salmon-1, $salmon-2);
+		padding: 0;
+		border: 2px solid $salmon-border;
+	}
+		nav ul > li{
+			list-style: none;
+			display: inline-block;
+			width: 18.3%;
+			height: 100%;
+			text-align: center;
+			border-right: 2px solid $salmon-border;
+		}
+		nav ul > li:first-child{
+			width: 6%;
+			background: $salmon-3;
+		}
+		nav ul > li:last-child{
+			border: none;
+		}
+			nav ul li a{
+				width: 100%;
+				height: 100%;
+				padding-top: 12px;
+				display: block;
+				color: white;
+				font-size: 2rem;
+			}
+			a:hover, a:active, a:visited, a:link{
+				color: white;
+				text-decoration: none;
+			}
+#submenu1{
+	z-index: 50;
+	heigth: 200px;
+}
+	#submenu1 li{
+		display: block;
+	}
+									/* /////////////// End Navigation /////////////// */
+#addSection{
+	margin-top: 10px;
+	position: relative;
+}
+	#arrowDown{
+		font-size: 1.5rem;
+		position: relative;
+		top: 16px;
+		right: 45px;
+	}
+#addTop{
+	top: 80px;
+	left: 70px;
+}
+#addBot{
+	top: 120px;
+	left: 70px;
+	font-size: 45px;
+}
+#readMore{
+	background: $grey2;
+	width: 100px;
+	right: 745px;
+	top: 220px;
+	height: 38px;
+	text-align: center;
+	padding-top: 10px;
+}
+.directionalButton{
+	width: 40px;
+	height: 40px;
+	background: $grey2;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 22px;
+	top: 340px;
+	left: 840px;
+}
+	#dBLeft{
+		left: 798px;
+	}
+									/* /////////////// End Add Section /////////////// */
+#serviceSection img{
+	@include round(200px);
+}
+									/* /////////////// End Service Section /////////////// */
+.shadowsMargin{
+	margin-top: -20px;
+}
+.buttonView{
+	background: $orange;
+	height: 45px;
+	text-align: center;
+}
+.buttonView p{
+	color: white;
+	margin-top: 14px;
+	font-weight: bold;
+}
+#searchIcon{
+	background: $grey2;
+	float: left;
+	height: 100%;
+	font-size: 17px;
+	padding-top: 12px;
+}
+									/* /////////////// End Gallery Section /////////////// */
+.date{
+	padding: 0;
+	text-align: center;
+}
+	.dateTop{
+		width: 100%;
+		height: 55px;
+		background: $orange;
+		border-bottom: 1px solid white;
+		padding-top: 6px;
+		margin-top: 3px;
+	}
+		.dateTop p{
+			color: white;
+			font-size: 30px;
+			font-weight: 300;
+		}
+	.dateBot{
+		height: 25px;
+		background: $orange2;
+		padding-top: 3px;
+	}
+		.dateBot p{
+			color: white;
+		}
+.pSize{
+	font-size: 13px;
+}
+.event {
+	margin-bottom: 14px;
+}
+.final-section{
+	margin-bottom: 50px;
+}
+			/* ///////////	footer	////////// */
+footer{
+	heigth: 60px;
+	margin-bottom: 10px;
+}
+footer p{
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	line-height: 1;
+	color: $grey2;
+}
+.credits{
+	padding-top: 15px;
+}
+.phone{
+	width: 35px;
+	padding: 0 0 0 18px;
+	margin-right: 15px;
+}
