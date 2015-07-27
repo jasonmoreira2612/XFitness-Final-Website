@@ -92,6 +92,17 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
+<script type="text/javascript">
+		function isNumber(evt) {
+		    evt = (evt) ? evt : window.event;
+		    var charCode = (evt.which) ? evt.which : evt.keyCode;
+		    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+		    	alert("please type numbers");
+		        return false;
+		    }
+		    return true;
+		}
+	</script>
 <!-- JS Files Ends -->
 </body>
 </html>
